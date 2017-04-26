@@ -9,6 +9,8 @@
 /bower_components
 
 # misc
+.idea
+.editorconfig
 /.sass-cache
 /connect.lock
 /coverage/*
