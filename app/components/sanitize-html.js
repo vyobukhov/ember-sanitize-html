@@ -1,0 +1,1 @@
+export { default } from 'ember-sanitize-html/components/sanitize-html';
