@@ -13,7 +13,6 @@ export default Ember.Component.extend({
   sanitizedValue: Ember.computed('value', function () {
     const value   = this.get('value');
     const options = this.get('options');
-    console.log('value', sanitize(value, options));
     return sanitize(value, options);
   })
 
